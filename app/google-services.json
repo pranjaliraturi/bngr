@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "534216134690",
+    "firebase_url": "https://binger15-75faa.firebaseio.com",
+    "project_id": "binger15-75faa",
+    "storage_bucket": "binger15-75faa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534216134690:android:51558464f4526e6b",
+        "android_client_info": {
+          "package_name": "com.binger.purdue.binger15"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534216134690-bpgov77pbsmb6cpqgt3nh2qs25fr09hp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.binger.purdue.binger15",
+            "certificate_hash": "976b039bc0356e50f8e39397dbc6570aed7ce965"
+          }
+        },
+        {
+          "client_id": "534216134690-h312h4t4p41uos57t5cqcqm4g4hn8sou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDduZX15yjC4IZ1rELIb1riaImVOh2DZxQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534216134690-h312h4t4p41uos57t5cqcqm4g4hn8sou.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

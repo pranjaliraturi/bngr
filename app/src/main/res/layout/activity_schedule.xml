@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Schedule">
+<ScrollView xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:scrollbars="vertical"><HorizontalScrollView
+    android:layout_width="320dp"
+    android:layout_height="fill_parent"/>
+
+    <TableLayout
+        android:id="@id/schedule_table"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Hour" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="2"
+                android:padding="3dip"
+                android:text="Monday" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="3"
+                android:padding="3dip"
+                android:text="Tuesday" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="4"
+                android:padding="3dip"
+                android:text="Wednesday" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="5"
+                android:padding="3dip"
+                android:text="Thursday" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="6"
+                android:padding="3dip"
+                android:text="Friday" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="7"
+                android:padding="3dip"
+                android:text="Saturday" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="8"
+                android:padding="3dip"
+                android:text="Sunday" />
+
+
+        </TableRow>
+
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="12a.m.-1a.m" />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+        </TableRow>
+
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="2a.m.-3a.m" />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+        </TableRow>
+
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="3a.m.-4a.m" />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+        </TableRow>
+
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="4a.m.-5a.m" />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+        </TableRow>
+
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="5a.m.-6a.m" />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+        </TableRow>
+
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="6a.m.-7a.m" />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+        </TableRow>
+
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="7a.m.-8a.m" />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+        </TableRow>
+
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="8a.m.-9a.m" />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+        </TableRow>
+
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="9a.m.-10a.m" />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+        </TableRow>
+
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="10a.m.-11a.m" />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+        </TableRow>
+
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="11a.m.-12p.m" />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+        </TableRow>
+
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="1p.m.-2p.m" />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+        </TableRow>
+
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="2p.m.-3p.m" />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+        </TableRow>
+
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="3p.m.-4p.m" />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+        </TableRow>
+
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="4p.m.-5p.m" />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+        </TableRow>
+
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="5p.m.-6p.m" />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+        </TableRow>
+
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="6p.m.-7p.m" />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+        </TableRow>
+
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="7p.m.-8p.m" />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+        </TableRow>
+
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="8p.m.-9p.m" />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+        </TableRow>
+
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="9p.m.-10p.m" />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+        </TableRow>
+
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="10p.m.-11p.m" />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+        </TableRow>
+
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="11p.m.-12a.m" />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+
+            <CheckBox />
+        </TableRow>
+    </TableLayout></ScrollView>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        app:layout_constraintTop_toBottomOf="@id/schedule_table"/>
+
+
+</android.support.constraint.ConstraintLayout>
